@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv) {
     char str[] = "hello";
-    reverseString(str);
-    printf("Reversed: %s\n", str);
+    rotateString(str, 2);
+    printf("Rotated String: %s\n", str);  // Expected Output: "lohel"
     return EXIT_SUCCESS;
 }

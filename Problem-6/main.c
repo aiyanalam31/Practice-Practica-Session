@@ -4,9 +4,7 @@
 #include <string.h>
 
 int main(int argc, char** argv) {
-    int a = 3;
-    int b = 7;
-    swap(&a, &b);
-    printf("Swapped values: %d %d\n", a, b);
+    int arr[] = {1, 2, 4, 6, 3, 7, 8};
+    printf("Missing Number: %d\n", findMissingNumber(arr, 7));
     return EXIT_SUCCESS;
 }

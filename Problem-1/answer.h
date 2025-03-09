@@ -1,6 +1,6 @@
-#ifndef __ANSWER_H__
-#define __ANSWER_H__
+#ifndef __ROTATE_STRING_H__
+#define __ROTATE_STRING_H__
 
-void reverseString(char *str);
+void rotateString(char *str, int k);
 
 #endif

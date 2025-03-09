@@ -1,6 +1,6 @@
-#ifndef __ANSWER_H__
-#define __ANSWER_H__
+#ifndef __KTH_LARGEST_H__
+#define __KTH_LARGEST_H__
 
-int findMax(int n);
+int kthLargest(int *arr, int size, int k);
 
 #endif

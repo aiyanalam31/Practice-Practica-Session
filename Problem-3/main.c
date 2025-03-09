@@ -4,6 +4,7 @@
 #include <string.h>
 
 int main(int argc, char** argv) {
-    printf("Lines in file: %d\n", countLines("test.txt"));
+    printf("Balanced: %d\n", isBalanced("{[()]}")); // Expected: 1
+    printf("Balanced: %d\n", isBalanced("{[(])}")); // Expected: 0
     return EXIT_SUCCESS;
 }

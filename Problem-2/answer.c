@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-int findMax(int n)
+int kthLargest(int *arr, int size, int k)
 {
-    // TODO: Allocate memory, find max value, free memory
+    // TODO: Implement k-th largest element finder
     return 0;
 }

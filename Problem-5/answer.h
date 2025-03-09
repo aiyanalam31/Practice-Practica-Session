@@ -1,6 +1,6 @@
-#ifndef __ANSWER_H__
-#define __ANSWER_H__
+#ifndef __LONGEST_INC_SUBSEQ_H__
+#define __LONGEST_INC_SUBSEQ_H__
 
-int fibonacci(int n);
+int longestIncreasingSubsequence(int *arr, int size);
 
 #endif

@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-int countLines(const char *filename)
+int isBalanced(const char *str)
 {
-    // TODO: Implement file line counting
+    // TODO: Implement balanced parentheses checker
     return 0;
 }

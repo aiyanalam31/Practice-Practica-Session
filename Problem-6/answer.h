@@ -1,6 +1,6 @@
-#ifndef __ANSWER_H__
-#define __ANSWER_H__
+#ifndef __FIND_MISSING_NUMBER_H__
+#define __FIND_MISSING_NUMBER_H__
 
-void swap(int *a, int *b);
+int findMissingNumber(int *arr, int size);
 
 #endif

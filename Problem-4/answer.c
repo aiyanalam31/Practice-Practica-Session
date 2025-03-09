@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-void sortArray(int *arr, int size)
+void *myMemcpy(void *dest, const void *src, size_t n)
 {
-    // TODO: Implement qsort with a comparison function
+    // TODO: Implement custom memcpy
+    return dest;
 }

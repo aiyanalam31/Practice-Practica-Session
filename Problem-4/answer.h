@@ -1,6 +1,6 @@
-#ifndef __ANSWER_H__
-#define __ANSWER_H__
+#ifndef __MY_MEMCPY_H__
+#define __MY_MEMCPY_H__
 
-void sortArray(int *arr, int size);
+void *myMemcpy(void *dest, const void *src, size_t n);
 
 #endif

@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-void swap(int *a, int *b)
+int findingMissingNumber(int *arr, int size)
 {
-    // TODO: Implement swap without a temporary variable
+    // TODO: Implement function to find missing number
+    return -1;
 }
