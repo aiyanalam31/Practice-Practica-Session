@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int longestIncreasingSubsequence(int *arr, int size)
-{
-    // TODO: Implement LIS algorithm
+int fibonacci(int n) {
+    // TODO: Implement recursive Fibonacci
     return 0;
 }
